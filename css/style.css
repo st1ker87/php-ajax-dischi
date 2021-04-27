@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    background-color: #2E3A46;
+}
+
+header img {
+    height: 50px;
+    margin: 10px 20px;
+}
+
+main {
+    height: calc(100vh - 70px);
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #1E2D3B;
+    overflow-y: auto;
+}
+
+main .album {
+    display: table;
+    max-width: 230px;
+    padding: 15px;
+    background-color: #2E3A46;
+    margin: 20px;
+    text-align: center;
+    color: white;
+}
+main .album img {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+main .album p {
+    margin: 15px 0;
+}
+
