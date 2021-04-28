@@ -1,5 +1,5 @@
 <?php 
-    include __DIR__."/database.php";
+    include __DIR__."/partials/database.php";
 ?>
 
 <!DOCTYPE html>
@@ -12,9 +12,8 @@
     <title>PHP Dischi</title>
 </head>
 <body>
-    <header>
-        <img src="img/Spotify_logo.png" alt="">
-    </header>
+    
+    <?php include __DIR__ . "/partials/header.php"; ?>
 
     <main>
         <?php foreach ($database as $album) { ?>
