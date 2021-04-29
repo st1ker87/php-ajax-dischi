@@ -27,6 +27,23 @@ main {
     overflow-y: auto;
 }
 
+#selection {
+    padding: 5px 10px;
+    background-color: lightgray;
+    color: #1E2D3B;
+    border-radius: 5px;
+    font-size: large;
+}
+main .selector {
+    width: 100%;
+    text-align: center;
+}
+main > .selector > label {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
 main .album {
     display: table;
     max-width: 230px;
